@@ -1,0 +1,16 @@
+[package]
+name = "httptest"
+version = "0.1.0"
+authors = ["Mike Tang <miketang84@outlook.com>"]
+
+#[dependency.http-muncher]
+#git = "https://github.com/nbaksalyar/rust-streaming-http-parser"
+
+[dependencies]
+http-muncher = "*"
+clap = "*"
+env_logger = "*"
+hyper = "*"
+
+[dependencies.coio]
+git = "https://github.com/zonyitoo/coio-rs.git"
